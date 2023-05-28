@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.container {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 200px 0 0 16%;
+}
+.orange {
+    width: 630px;
+    height: 431px;
+    background: #FFBF00;
+
+}
+.photo1 {
+    position: absolute;
+    width: 650px;
+    height: 501px;
+    background: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/334a09d56e395befab932da4/fd-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 200px 0 0 70px;
+
+}
+.photo2 {
+    position: absolute;
+    width: 500px;
+    height: 650px;
+    background: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/3695446d610b59b6a0d35a5e/fff-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px 0 0 100px;
+}
+.textcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+}
+.block1 {
+    width: 420px;
+    height: 350px;
+    background-color: #ffffff;
+    padding: 20px 0 0 0;
+}
+.block2 {
+    width: 420px;
+    height: 350px;
+    background-color: #FFBF00;
+    padding: 20px 0 0 0;
+}
+p {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    padding: 0 0 0 30px;
+    font-size: 20px;
+    width: 380px;
+}
+h1 {
+    padding: 3px 0 0 30px;
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: lighter;
+}
+/*Для ноутбука*/
+@media screen and (max-width: 1200px) {
+    .container {
+        margin: 200px 0 0 18%;
+    }
+    .photo2 {
+        margin: 50px 0 0 250px;
+    }
+    .block1 {
+        width: 380px;
+        height: 380px;
+    }
+    .block2 {
+        width: 380px;
+        height: 380px;
+    }
+    .textcontainer {
+        margin: 220px -200px 0 0;
+    }
+    p {
+        width: 330px;
+    }
+    h1 {
+        font-size: 26px;
+        padding: 8px 0 0 30px;
+    }
+}
+/*Для ноутбука*/
+
+
+/*Для планшета*/
+@media screen and (max-width: 990px) {
+    .container {
+        margin: 200px 0 0 18%;
+    }
+    .orange {
+        width: 530px;
+    }
+    .photo1 {
+        width: 530px;
+    }
+    .photo2 {
+        margin: 50px 0 0 125px;
+    }
+    .block1 {
+        width: 320px;
+        height: 420px;
+    }
+    .block2 {
+        width: 320px;
+        height: 420px;
+    }
+    .textcontainer {
+        margin: 220px -200px 0 0;
+    }
+    p {
+        width: 270px;
+    }
+    h1 {
+        width: 270px;
+    }
+}
+/*Для планшета*/
+
+
+/*Для планшета горизонт*/
+@media screen and (max-width: 860px) {
+
+    .container {
+        margin: 200px 0 0 12%;
+    }
+    .orange {
+        width: 360px;
+    }
+    .photo1 {
+        width: 260px;
+    }
+    .photo2 {
+        margin: 50px 0 0 50px;
+    }
+    .block1 {
+        width: 480px;
+        height: 280px;
+        padding-bottom: 40px;
+    }
+    .block2 {
+        width: 480px;
+        height: 280px;
+    }
+    .textcontainer {
+        margin: 220px 0 0 0;
+        flex-direction: column;
+    }
+    p {
+        width: 440px;
+    }
+    h1 {
+        width: 440px;
+    }
+}
+/*Для планшета горизонт
+
+/*Для телефона*/
+@media screen and (max-width: 640px) {
+    .container {
+        margin: 200px 0 0 0;
+    }
+    .orange {
+        width: 60%;
+        height: 420px;
+        margin: 100px 0 0 70px;
+    }
+    .photo1 {
+        width: 70%;
+        height: 420px;
+    }
+    .photo2 {
+        width: 360px;
+        height: 480px;
+        margin: 140px 0 0 13%;
+    }
+    .block1 {
+        width: 340px;
+        height: 480px;
+        padding-bottom: 0;
+    }
+    .block2 {
+        width: 340px;
+        height: 420px;
+    }
+    .textcontainer {
+        margin: 160px 0 0 0;
+        flex-direction: column;
+    }
+    p {
+        width: 280px;
+    }
+    h1 {
+        width: 280px;
+    }
+}
+/*Для телефона*/
